@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context=".Servicesetting">
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:id="@+id/profileImage"
+        android:src="@drawable/ic_account"
+        android:layout_marginBottom="20sp"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Name"
+        android:layout_marginBottom="20sp"/>
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Phone"
+        android:layout_marginBottom="20sp"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Car"
+        android:layout_marginBottom="20sp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="386dp"
+        android:layout_height="71dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/S1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CarWashing" />
+
+        <RadioButton
+            android:id="@+id/S2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HandyMan" />
+
+        <RadioButton
+            android:id="@+id/S4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" haircuts" />
+
+        <RadioButton
+            android:id="@+id/S3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" car repair" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirm"
+        android:text="confirm"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:text="back"/>
+
+    <Button
+        android:id="@+id/gotoreq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next" />
+
+</LinearLayout>
